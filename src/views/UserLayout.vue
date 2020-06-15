@@ -6,7 +6,8 @@
         </el-header>
 
         <el-container>
-
+            <router-view></router-view>
+            <PersonalInfo></PersonalInfo>
         </el-container>
 
         <el-footer>
@@ -17,29 +18,33 @@
 </template>
 
 <script>
-    import Header from '../layout/User/header';
-    import Footer from '../layout/User/footer';
+    import Header from './layout/header';
+    import Footer from './layout/footer';
+    import PersonalInfo from './layout/personal'
     export default {
         name: "UserView",
         components: {
             Header,
-            Footer
+            Footer,
+            PersonalInfo
         }
     }
 </script>
 
 <style scoped>
     .el-container {
-        width: 83%;
+        width: 90%;
         min-height: 100px;
         height: auto;
         margin: 0 auto;
-        display: flex;
         justify-content: space-between;
     }
     .el-header, .el-footer {
         color: #333;
         text-align: center;
         line-height: 60px;
+    }
+    .BlogList {
+        margin-left: 1px;
     }
 </style>
