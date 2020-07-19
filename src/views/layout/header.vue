@@ -17,7 +17,7 @@
             </el-menu-item>
 
             <el-menu-item class="menuItem" index="3" id="label">
-                <router-link tag='a' :to="'/'" >
+                <router-link tag='a' :to="'/pyhub'" >
                     <i class="el-icon-orange" style="font-size: 20px;"></i>
                     <span> PyHub </span>
                 </router-link>
