@@ -26,10 +26,10 @@
                 </div>
             </div>
             <div class="logoGroup">
-                <Icon type="logo-github" size="18" />
-                <Icon type="md-aperture" size="18" />
-                <Icon type="logo-facebook" size="18" />
-                <Icon type="md-globe" size="18" />
+                <el-icon type="logo-github" size="18" />
+                <el-icon type="md-aperture" size="18" />
+                <el-icon type="logo-facebook" size="18" />
+                <el-icon type="md-globe" size="18" />
             </div>
         </el-card>
     </div>
