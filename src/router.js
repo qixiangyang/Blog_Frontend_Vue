@@ -5,6 +5,7 @@ import Router from 'vue-router'
 import BlogList from './views/components/content'
 import Layout from './views/UserLayout'
 import About from './views/components/about'
+import PyHub from './views/components/pyhub'
 // import admin from './views/AdminView'
 
 Vue.use(Router);
@@ -20,6 +21,16 @@ export default new Router({
                     path: '/',
                     name: 'index',
                     component: BlogList
+                },
+                {
+                    path: '/pyhub',
+                    name: 'pyhub',
+                    component: PyHub
+                },
+                {
+                    path: '/archives',
+                    name: 'pyhub',
+                    component: PyHub
                 },
                 {
                     path: '/about',
